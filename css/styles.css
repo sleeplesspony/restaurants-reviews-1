@@ -133,6 +133,9 @@ nav h1 a {
   margin: 10px 15px 10px 5px;
   padding: 0 10px;
 }
+.filter-options select:focus {
+  box-shadow: 0 0 2px 3px orange;
+}
 .filter-options label {
   font-size: 11pt;
   font-weight: bold;
@@ -193,6 +196,9 @@ nav h1 a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+}
+#restaurants-list li a:focus {
+  background-color: #ff4a15;
 }
 
 /* ====================== Restaurant Details ====================== */
